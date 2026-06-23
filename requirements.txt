@@ -1,0 +1,12 @@
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.24
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+plotly>=5.18
+statsmodels>=0.14
+
+# Opcional — usado pela seleção automática de modelo quando disponível.
+# Se a instalação falhar (ex: ausência de compilador C++), o sistema usa
+# SARIMA para todas as séries automaticamente, sem precisar editar código.
+prophet>=1.1
